@@ -10,7 +10,7 @@ namespace TestNinja.UnitTests
     public class HtmlFormatterTests
     {
         [Test]
-        public void FromatAsBold_WhenCalled_ShouldEncloseStringWithStrongElement()
+        public void FormatAsBold_WhenCalled_ShouldEncloseStringWithStrongElement()
         {
             var htmlFormatter = new HtmlFormatter();
 
